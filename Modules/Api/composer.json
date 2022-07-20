@@ -1,0 +1,25 @@
+{
+    "name": "twf/api",
+    "description": "",
+    "authors": [
+        {
+            "name": "The Web Fosters",
+            "email": "thewebfosters@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Api\\Providers\\ApiServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Api\\": ""
+        }
+    }
+}
